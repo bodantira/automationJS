@@ -1,0 +1,22 @@
+{
+  "name": "javascriptcucumber",
+  "version": "1.0.0",
+  "main": "index.js",
+ "scripts": {
+  "test": "npx cucumber-js",
+  "test:smoke": "npx cucumber-js --tags @smoke",
+  "test:regression": "npx cucumber-js --tags @regression",
+  "test:critical": "npx cucumber-js --tags @critical"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "axios": "^1.7.9",
+    "chai": "^5.2.0",
+    "cucumber": "^6.0.7",
+    "cucumber-html-reporter": "^7.2.0"
+  }
+}

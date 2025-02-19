@@ -1,0 +1,10 @@
+step by step install
+
+npm init -y
+npm install --save-dev cucumber axios chai @cucumber/cucumber
+npm install --save-dev cucumber-html-reporter
+create cucumber json for config
+create generatereport for report
+npx cucumber-js
+node generateReport.js
+npx cucumber-js --tags "@regression"
